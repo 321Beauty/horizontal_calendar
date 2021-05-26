@@ -157,17 +157,17 @@ void main() {
 
     final date17 = find.text('17');
     expect(date17, findsOneWidget);
-    final week17 = find.text('Sun');
+    final week17 = find.text('Dom');
     expect(week17, findsOneWidget);
 
     final date18 = find.text('18');
     expect(date18, findsOneWidget);
-    final week18 = find.text('Mon');
+    final week18 = find.text('Seg');
     expect(week18, findsOneWidget);
 
     final date19 = find.text('19');
     expect(date19, findsOneWidget);
-    final week19 = find.text('Tue');
+    final week19 = find.text('Ter');
     expect(week19, findsOneWidget);
   });
 
